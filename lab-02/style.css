@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(168, 189, 117)
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+header, main, section {
+  overflow: auto;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(124, 124, 123);
+  width: 15%;
+  flex-direction: column;
+}
+
+nav a {
+  background-color: rgb(168, 189, 117);
+  color: black;
+  flex-basis: auto;
+  padding: 0.25em 0.5em;
+  margin: 2em;
+  flex-shrink: 0;
+  transition: background-color 0.9s;
+}
+
+nav a:hover {
+  background-color: white;
+}
+
+section {
+  width: 85%;
+  box-sizing: border-box;
+}

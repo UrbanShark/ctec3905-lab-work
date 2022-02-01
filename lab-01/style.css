@@ -1,0 +1,20 @@
+body {
+  max-width: 900px;
+  margin: auto;
+  background: #099;
+  color: white;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.special {
+  background-color: white;
+  color: black;
+}
+
+.special2 {
+  background-color: rgb(199, 55, 240);
+  color: black;
+}
