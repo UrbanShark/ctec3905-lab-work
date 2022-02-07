@@ -1,77 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
-
 body {
-	font-family: Montserrat, sans-serif;
-	margin: 0;
-	background-color: #eb0;
+  margin: 0;
 }
 
-#menuToggler {
-	position: fixed;
-	top: 0.5rem;
-	right: 0.5rem;
-	background-color: rgba(149, 44, 44, 0.5);
-	color: white;
-	font-size: 3em;
-	text-align: right;
-	line-height: 1em;
-	padding: 0 1rem;
-	z-index: 1;
+header {
+  background-color: rgb(168, 189, 117)
 }
 
+main {
+  background-color: rgb(210, 217, 192)
+}
+
+menuToggler  {
+  display: flex;
+  flex-direction: column;
+}
 nav {
-	position: fixed;
-	width: 100vw;
-	height: 100vh;
-	top: 0;
-	display: flex;
-	flex-direction: column;
-	background-color: rgba(0,0,0,0.7);
-	opacity: 0;
-	transform: translateX(100vw);
-	transition: transform 0.4s, opacity 0.6s;
-}
-
-nav.open {
-	transition: transform 0.4s, opacity 0.2s;
-	transform: none;
-	opacity: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(124, 124, 123);
+  width relative: 15%;
 }
 
 nav a {
-	font-size: 2em;
-	text-decoration: none;
-	padding: 0.5em 1em;
-	color: white;
-	text-align: center;
-	flex-grow: 1;
+  background-color: rgb(168, 189, 117);
+  color: black;
+  flex-basis: auto;
+  padding: 0.25em 0.5em;
+  margin: 2em;
+  flex-shrink: 0;
+  transition: background-color 0.9s;
 }
 
-p {
-	padding: 0 1em;
-	max-width: 600px;
-	margin: 1em auto;
-}
-
-@media screen and (min-width: 515px) {
-
-	#menuToggler {
-		display: none;
-	}
-
-	nav {
-		display: flex;
-		flex-direction: row;
-		transform: none;
-		opacity: 1;
-		height: auto;
-		position: static;
-		justify-content: center;
-	}
-
-	nav a {
-		font-size: 1.3em;
-		flex-grow: 0;
-	}
-
+nav a:hover {
+  background-color: white;
 }
