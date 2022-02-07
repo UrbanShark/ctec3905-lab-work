@@ -5,21 +5,38 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>lab-03</title>
+  <title>lab-04</title>
   <link rel="stylesheet" href="styles.css">
 
 </head>
 
-<body>
+<body id="home">
+  <div id="menuToggler" class="no-print">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
   <header>
-    <h1>My example site</h1>
+    <h1>My Rezponsive Design site</h1>
+    <nav class="no-print">
+      <a ref="#home">Home</a>
+      <a ref="#football pitch">Football Pitch</a>
+      <a ref="#basketball pitch">Basketball Pitch</a>
+      <a ref="#tennis court">Tennis Court</a>
+
   </header>
   <main>
-    <h2 class="clickable">I'm a heading</h2>
-    <button class="clickable">I'm a button</button>
-    <p class="clickable">I'm a paragraph testing</p>
-    <p>hello</p>
-    <p>testing to see if my new commit works hello asdsadsada</p>
+    <section>
+      <p>
+        Testing reponsive deisgn for an example site booking sytem.
+      </p>
+    </section>
+    <section class="images">
+      <article id="football pitch">
+        <img src="3g-header.jpg" alt="football pitch">
+        <h2>Football Pitch</h2>
+        <p>sample text</p>
+    </section>
   </main>
   <!-- This code links the body to the java scripts page   -->
   <script src="scripts.js"></script>

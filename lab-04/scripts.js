@@ -1,11 +1,9 @@
-"use strict";
+menuToggler.addEventListener('click' ev =>) {
+  menuToggler.classlist.toggle('open');
+});
 
-const toggleHighlighted = (ev) => {
-  ev.target.classList.toggle("highlighted");
-}
-
-const elements = document.querySelectorAll('.clickable');
-
-for (const element of elements) {
-  element.addEventListener('click', toggleHighlighted);
+for (const element of doucment.querySelectorAll('nav a')) {
+  element.addEventListener('clicl', ev => {
+    menuToggler.classList.remove('open');
+  })
 }
