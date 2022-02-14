@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sports Centre Booking System</title>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Centre Booking System</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
 
-	<!--
+  <!--
 		You will need to replace this content with your own.
 
 		Your final site should have a maximum of four HTML documents.
@@ -25,23 +25,40 @@
 		Remember to keep the indentation consistent and VALIDATE your code regularly!
 		-->
 
-	<header>
-		<h1>Sports Centre</h1>
-		<div id="menuToggler">&#8801;</div>
-		<nav id="menu">
-			<a href="#">Home</a>
-			<a href="football.HTML">Football</a>
-			<a href="#">Basketball</a>
-			<a href="#">Tennis</a>
-		</nav>
-	</header>
+  <header>
+    <h1>Sports Centre</h1>
+    <div id="menuToggler">&#8801;</div>
+    <nav id="menu">
+      <a href="#">Home</a>
+      <a href="football.HTML">Football</a>
+      <a href="#">Basketball</a>
+      <a href="#">Tennis</a>
+    </nav>
+    <h2>User Imputs Testing</h2>
+  </header>
 
-	<main>
-		<p>
-			This site will allow customers to book facilities within the sports centre. Testing a new commit.
-		</p>
+  <main>
+    
+    <section class="inputs">
+
+      <label for="red">Red</label>
+      <input type="range" id="red" value="100" max="255">
+
+      <label for="green">Green</label>
+      <input type="range" id="green" value="100" max="255">
+
+      <label for="blue">Blue</label>
+      <input type="range" id="blue" value="100" max="255">
+
+    </section>
+    <section class="rgb">
+
+    </section>
+    <p>
+      This site will allow customers to book facilities within the sports centre. Testing a new commit.
+    </p>
     <!-- make surei addd a lavel like below -->
-		<span>
+    <span>
       <label for="username">User name:</label>
       <input id="username"><br>
     </span>
@@ -53,7 +70,7 @@
       <label for="Color">Color</label>
       <input id="range" type="color"><br>
     </span>
-<!-- aria label puts the text into the box as seen below -->
+    <!-- aria label puts the text into the box as seen below -->
     <span>
       <input type="text" aria-label="search" placeholder="search">
       <button type="submit">Search</button><br>
@@ -62,9 +79,9 @@
       <input type="color" value="#b000ff">
       <label for="ColorChosen">Color already chosen by setting a value</label>
     </span>
-	</main>
+  </main>
 
-	<script src="scripts.js"></script>
+  <script src="scripts.js"></script>
 </body>
 
 </html>

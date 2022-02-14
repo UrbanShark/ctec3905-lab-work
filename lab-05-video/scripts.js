@@ -3,4 +3,8 @@ menuToggler.addEventListener('click', ev => {
 	menuToggler.textContent = menuToggler.textContent === "×" ? "≡" : "×";
 });
 
+red.addEventListener('input', ev => {
+	document.documentElement.Style.setProperty('--red', red.value)
+});
+
 console.log("testing")
