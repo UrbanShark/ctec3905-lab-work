@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sports Centre Booking System</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+	<!--
+		You will need to replace this content with your own.
+
+		Your final site should have a maximum of four HTML documents.
+		Though a 'single page app' will probably have only one html file.
+		Either way, your site should provide the facility to navigate around the main sections.
+
+		Consider accessibility.
+		Make sure your HTML has a clear structure.
+		Use semantic elements to define the main parts of your page.
+
+		Remember to keep the indentation consistent and VALIDATE your code regularly!
+		-->
+
+	<header>
+		<h1>Sports Centre</h1>
+		<div id="menuToggler">&#8801;</div>
+		<nav id="menu">
+			<a href="#">Home</a>
+			<a href="football.HTML">Football</a>
+			<a href="#">Basketball</a>
+			<a href="#">Tennis</a>
+		</nav>
+	</header>
+
+	<main>
+		<p>
+			This site will allow customers to book facilities within the sports centre. Testing a new commit.
+		</p>
+    <!-- make surei addd a lavel like below -->
+		<span>
+      <label for="username">User name:</label>
+      <input id="username"><br>
+    </span>
+    <span>
+      <label for="Range">Range</label>
+      <input id="range" type="range"><br>
+    </span>
+    <span>
+      <label for="Color">Color</label>
+      <input id="range" type="color"><br>
+    </span>
+<!-- aria label puts the text into the box as seen below -->
+    <span>
+      <input type="text" aria-label="search" placeholder="search">
+      <button type="submit">Search</button><br>
+    </span>
+    <span>
+      <input type="color" value="#b000ff">
+      <label for="ColorChosen">Color already chosen by setting a value</label>
+    </span>
+	</main>
+
+	<script src="scripts.js"></script>
+</body>
+
+</html>
